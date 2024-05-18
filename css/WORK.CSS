@@ -66,16 +66,17 @@ table {
     margin: 16px;
 }
 .prj_item{
-    font-family: "Noto Sans";
+  
     font-size: 28px;
     text-align: left;
     color: #3B3B3B;
+    font-weight: 700;
 
 
 }
 .content p {
     color: #919191;
-    font-family: "Noto Sans";
+ 
     font-size: 16px;
     margin-top: 8px;
     margin-bottom: 24px;
@@ -85,6 +86,7 @@ table {
     gap: 16px;
     }
 .list_li {
+   
     background: #F1F1F1;
     width: Hug (88px)px;
     height: Hug (32px)px;
@@ -92,4 +94,7 @@ table {
     gap: 10px;
     border-radius: 16px 16px 16px 16px;
     
+}
+*{
+    font-family: "Noto Sans";
 }
